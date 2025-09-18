@@ -72,7 +72,7 @@ JavaScript – For interactivity (menus, form validation, toggles)
 
 This project is deployed using GitHub Pages.
 
-🔗 Live Website: [[Your Deployment Link Here](https://plp-webtechnologies-classroom-july2-sand.vercel.app/)]
+🔗 Live Website: [(https://plp-webtechnologies-classroom-july2-sand.vercel.app/)]
 
 To deploy yourself:
 
