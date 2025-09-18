@@ -1,90 +1,108 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+📖 Side Effects of Porn & Masturbation Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A multipage, responsive, and interactive website that explores the psychological, neurological, and social effects of pornography and masturbation. Inspired by research from neuroscientists, psychologists, and educators like Dr. Trish Leigh, this site raises awareness and provides insights into healthier habits.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+🚀 Project Overview
 
----
+This project was built as part of the Final Assignment: Build, Organize, and Deploy a Multipage Website. The goal was to combine HTML5, CSS3, and JavaScript to create a real-world, production-ready website with:
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Clear structure and navigation
 
-Before you write any code, take time to plan:
+Responsive design
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Interactive elements
 
-**Goal:** Show intentional structure and user journey across the site.
+Organized and maintainable codebase
 
----
+Successful deployment
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+📂 Website Structure
 
-Using your plan, begin building:
+The website consists of 5 pages:
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Home – Introduction to the topic and overview of the project.
 
-Each page should:
+About – Background on pornography and masturbation habits, including Dr. Trish Leigh’s research.
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+Effects – Covers the psychological, physical, and neurological side effects.
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Resources – Links to videos, research articles, and strategies for quitting or reducing use.
 
----
+Contact – A form for users to reach out, ask questions, or share feedback.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+🖼️ Features
 
-Before deployment, refactor your project to follow production-friendly practices:
+Responsive Navbar with toggle menu for mobile screens
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Scroll animations to improve user engagement
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Contact Form Validation (using JavaScript)
 
----
+Consistent Layout with shared header/footer
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+Mobile-first Design for accessibility across devices
 
-Once your project is complete, choose a method to **host your site online**.
+📁 Project Organization
+/project-root
+│── index.html
+│── about.html
+│── effects.html
+│── resources.html
+│── contact.html
+│
+├── /css
+│   └── style.css
+│
+├── /js
+│   └── script.js
+│
+├── /images
+│   └── (all images used in the site)
+│
+└── README.md
 
-You can use:
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+HTML5 – For semantic structure
 
-Deploy your project and confirm that:
+CSS3 – For responsive design, layout, and animations
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+JavaScript – For interactivity (menus, form validation, toggles)
 
-**Goal:** Publish your work online and make it accessible to the world.
+🌐 Deployment
 
----
+This project is deployed using GitHub Pages.
 
-## Deliverables
+🔗 Live Website: [[Your Deployment Link Here](https://plp-webtechnologies-classroom-july2-sand.vercel.app/)]
 
-1. A GitHub repository containing:
+To deploy yourself:
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Push project files to a GitHub repository
 
----
+Go to Settings > Pages
 
-## Outcome
+Select main branch and /root folder
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Save and get your live link
+Host on Vercel
+
+✅ Best Practices Followed
+
+Semantic HTML for accessibility
+
+Organized folder structure (/css, /js, /images)
+
+Clean, modular, and well-commented code
+
+Responsive design tested across devices
+
+HTML/CSS validated
+
+📚 References
+
+Dr. Trish Leigh (Neuroscientist & Brain Health Educator)
+
+Research on pornography addiction and brain rewiring
+
+NoFap Community
+
+Academic articles on dopamine and compulsive behavior
