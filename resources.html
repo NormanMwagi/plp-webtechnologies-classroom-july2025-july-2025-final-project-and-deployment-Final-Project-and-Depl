@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Resources & Research</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#mainRes">Skip to main</a>
+
+    <!-- header copied from index -->
+    <header class="site-header"> ... </header>
+
+    <main id="mainRes" class="container">
+        <h1>Resources, cited research, and self-help tools</h1>
+
+        <section class="resource-list" data-animate>
+            <h2>Key references (balanced)</h2>
+            <ol>
+                <li>
+                    Dr. Trish Leigh — articles and coaching material on pornography, compulsive masturbation, and brain
+                    rewiring (clinical/coaching perspective). :contentReference[oaicite:7]{index=7}
+                </li>
+                <li>
+                    Mayo Clinic / Cleveland Clinic — overview pages stating that masturbation is not physically harmful
+                    in routine practice. :contentReference[oaicite:8]{index=8}
+                </li>
+                <li>
+                    Systematic reviews and research on problematic pornography use and mental health (recent reviews
+                    2023–2025). :contentReference[oaicite:9]{index=9}
+                </li>
+                <li>
+                    Compulsive Internet Pornography Use and Mental Health — peer-reviewed studies linking compulsive use
+                    with distress (university populations). :contentReference[oaicite:10]{index=10}
+                </li>
+            </ol>
+        </section>
+
+        <section class="tools" data-animate>
+            <h2>Self-check & tools</h2>
+            <p>Below is a quick, anonymous self-check (not diagnostic):</p>
+            <form id="selfCheck" aria-label="Self check form">
+                <label><input type="checkbox" name="q1" /> I feel unable to reduce or stop my porn use.</label><br />
+                <label><input type="checkbox" name="q2" /> My use causes problems at work / study / home.</label><br />
+                <label><input type="checkbox" name="q3" /> I use porn or masturbation to cope with negative
+                    emotions.</label><br />
+                <button type="button" id="checkBtn" class="btn">Check results</button>
+            </form>
+
+            <div id="result" class="result" role="status" aria-live="polite" hidden></div>
+        </section>
+
+        <section class="external-links">
+            <h2>External help & lines</h2>
+            <ul>
+                <li>Consider local mental-health services or online therapists (search your local health service).</li>
+                <li>For relationship issues: couples therapy or sex therapists (licensed clinicians).</li>
+            </ul>
+        </section>
+
+        <section class="citation-list">
+            <h2>Full citations</h2>
+            <ul>
+                <li>Trish Leigh — Masturbation and porn articles (coach perspective).
+                    :contentReference[oaicite:11]{index=11}</li>
+                <li>Mayo Clinic — Masturbation article covering myths & facts. :contentReference[oaicite:12]{index=12}
+                </li>
+                <li>Systematic reviews on problematic pornography use and mental health (2024–2025).
+                    :contentReference[oaicite:13]{index=13}</li>
+                <li>Compulsive Internet Pornography Use and Mental Health (University studies).
+                    :contentReference[oaicite:14]{index=14}</li>
+                <li>APA Monitor article on whether pornography is addictive (overview).
+                    :contentReference[oaicite:15]{index=15}</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year3"></span> Mind & Body — Resources.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

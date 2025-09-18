@@ -1,0 +1,89 @@
+
+/* style.css - simple modern styling, responsive layout */
+/* Root variables for easy theming */
+:root{
+  --bg:#f8fafc;
+  --card:#ffffff;
+  --accent:#0b72ff;
+  --muted:#6b7280;
+  --maxW:1100px;
+  --radius:12px;
+  --gap:1rem;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:var(--bg);
+  color:#111827;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.container{
+  max-width:var(--maxW);
+  margin:0 auto;
+  padding:1rem;
+}
+
+/* Accessibility helpers */
+.skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{left:0;top:0;width:auto;height:auto;padding:.5rem;background:#111;color:#fff;z-index:1000}
+
+.header-inner,
+.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+
+/* Header */
+.site-header{background:#fff;border-bottom:1px solid #e6eef6;position:sticky;top:0;z-index:50}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:inherit}
+.logo{width:36px;height:36px}
+.brand-text{font-weight:600}
+
+.nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1rem}
+.nav a{text-decoration:none;color:var(--muted);padding:.6rem;border-radius:8px}
+.nav a:hover, .nav a:focus{background:rgba(11,114,255,0.06);color:var(--accent)}
+
+.menu-toggle{display:none;background:none;border:0}
+
+/* Hero */
+.hero{padding:3rem 0;background:linear-gradient(180deg,#fff,#f5fbff)}
+.hero-inner h1{font-size:clamp(1.6rem,2.4rem,2.8rem);margin:.2rem 0}
+.lead{color:var(--muted);max-width:60ch}
+
+/* Cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:2rem 0}
+.card{background:var(--card);padding:1rem;border-radius:var(--radius);box-shadow:0 4px 18px rgba(11,34,66,0.06)}
+
+.btn{display:inline-block;padding:.6rem 1rem;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none}
+.btn.secondary, .btn.btn-secondary{background:#fff;color:var(--accent);border:1px solid rgba(11,114,255,0.12)}
+.btn.small{padding:.35rem .6rem}
+
+/* Content and callout */
+.content-card{display:grid;grid-template-columns:1fr 300px;gap:1rem}
+.content-card .callout{background:#fff;padding:1rem;border-radius:12px;align-self:start;border-left:4px solid var(--accent)}
+@media (max-width:900px){
+  .content-card{grid-template-columns:1fr}
+  .nav{display:none}
+  .menu-toggle{display:block}
+}
+
+/* Footer */
+.site-footer{padding:1.2rem 0;background:#fff;border-top:1px solid #e6eef6}
+.footer-nav a{color:var(--muted);text-decoration:none}
+
+/* Small interactive helpers */
+.toggle-more{background:none;border:1px solid var(--accent);padding:.4rem .6rem;border-radius:8px}
+.collapsible{margin-top:.8rem;padding:.6rem;background:#fcfeff;border-radius:8px}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* Animations controlled by JS using attribute data-animate */
+[data-animate]{opacity:0;transform:translateY(10px);transition:all .6s ease-out}
+[data-animate].in-view{opacity:1;transform:none}
+
+/* forms */
+input, textarea{font:inherit;padding:.6rem;border-radius:8px;border:1px solid #d1d5db;width:100%;display:block;margin:.4rem 0}
+label{font-weight:600;margin-top:.6rem;display:block}
+.result{margin-top:1rem;padding:.8rem;border-radius:8px;background:#fff}

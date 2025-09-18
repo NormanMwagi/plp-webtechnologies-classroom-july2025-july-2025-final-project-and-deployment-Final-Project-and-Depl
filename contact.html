@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — Mind & Body</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#contactForm">Skip to main</a>
+
+    <!-- header same as index -->
+    <header class="site-header"> ... </header>
+
+    <main class="container">
+        <h1>Contact (anonymous option)</h1>
+        <p>Use this form for general questions. If you need urgent help, contact local emergency services or mental
+            health services in your country.</p>
+
+        <form id="contactForm" novalidate>
+            <label for="name">Name (optional)</label>
+            <input id="name" name="name" type="text" placeholder="Optional name" />
+
+            <label for="email">Email (optional)</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required minlength="10" placeholder="How can we help?"></textarea>
+
+            <label class="checkbox">
+                <input type="checkbox" id="respond" name="respond" />
+                I would like a response (leave email above)
+            </label>
+
+            <button type="submit" class="btn">Send</button>
+            <div id="contactStatus" role="status" aria-live="polite"></div>
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year4"></span> Mind & Body</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
